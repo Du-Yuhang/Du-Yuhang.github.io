@@ -134,14 +134,29 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-a img.icon {
-    transition: transform 0.3s ease, filter 0.3s ease; /* 添加平滑的变换和滤镜效果 */
-    filter: brightness(1); /* 设置初始亮度为正常 */
-    display: inline-block;
-    margin: auto;
+.icon-links {
+    display: flex;                /* 启用Flexbox布局 */
+    justify-content: center;      /* 水平居中所有图标 */
+    align-items: center;          /* 垂直居中所有图标 */
 }
 
-a:hover img.icon {
-    transform: scale(1.2); /* 鼠标悬停时放大到120%的大小 */
-    filter: brightness(0.8); /* 鼠标悬停时减少亮度为80%，使颜色变深 */
+.icon-links a {
+    display: inline-block;        /* 确保链接是内联块级元素，允许使用边距 */
+    margin-right: 10px;           /* 在每个链接的右侧添加10px的边距 */
 }
+
+.icon-links a:last-child {
+    margin-right: 0;              /* 移除最后一个链接的右侧边距 */
+}
+
+.icon-links img {
+    width: 30px;                  /* 设置图标的宽度 */
+    height: 30px;                 /* 设置图标的高度 */
+    transition: transform 0.3s, filter 0.3s; /* 添加变换和滤镜的过渡效果 */
+}
+
+.icon-links img:hover {
+    transform: scale(1.2);        /* 鼠标悬停时图标放大 */
+    filter: brightness(0.8);      /* 鼠标悬停时减少亮度 */
+}
+
