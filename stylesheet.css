@@ -79,7 +79,6 @@ body,
 td,
 th,
 tr,
-p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px;
@@ -88,6 +87,13 @@ a {
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
+}
+
+p {
+   margin: 0;
+  font-weight: normal;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 h2 {
