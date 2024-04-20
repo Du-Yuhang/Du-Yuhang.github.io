@@ -152,8 +152,8 @@ span.highlight {
 
 .icon-links a {
     display: inline-block;        /* 确保链接是内联块级元素，允许使用边距 */
-    margin-right: 20px;           /* 在每个链接的右侧添加10px的边距 */
-    margin-bottom: 20px;
+    margin-right: 100px;           /* 在每个链接的右侧添加10px的边距 */
+    margin-bottom: 100px;
 }
 
 .icon-links a:last-child {
