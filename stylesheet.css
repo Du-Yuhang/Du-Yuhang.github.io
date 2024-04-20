@@ -137,7 +137,7 @@ span.highlight {
 a img.icon {
     transition: transform 0.3s ease, filter 0.3s ease; /* 添加平滑的变换和滤镜效果 */
     filter: brightness(1); /* 设置初始亮度为正常 */
-    display: block;
+    display: inline-block;
     margin: auto;
 }
 
