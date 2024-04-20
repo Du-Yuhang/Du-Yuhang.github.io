@@ -134,12 +134,14 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-img.hoverZoomLink {
-    transition: transform 0.3s ease-in-out; /* 设置动画效果为变换，持续时间为0.3秒 */
+a img.icon {
+    transition: transform 0.3s ease, filter 0.3s ease; /* 添加平滑的变换和滤镜效果 */
+    filter: brightness(1); /* 设置初始亮度为正常 */
     display: block;
-    margin: auto; /* 居中显示图像，视需要调整 */
+    margin: auto;
 }
 
-img.hoverZoomLink:hover {
-    transform: scale(1.1); /* 图像在悬停时放大到110%的原始大小 */
+a:hover img.icon {
+    transform: scale(1.2); /* 鼠标悬停时放大到120%的大小 */
+    filter: brightness(0.8); /* 鼠标悬停时减少亮度为80%，使颜色变深 */
 }
