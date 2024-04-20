@@ -1,19 +1,4 @@
 /* latin-ext */
-html {
-    font-size: 20px; /* 设置根字体大小 */
-}
-
-body {
-    font-size: 1.25rem; /* 使用rem单位，相对于根字体大小 */
-}
-
-p {
-    font-size: 1.25rem; 
-}
-
-body {
-    line-height: 1.6; /* 行高是字体大小的1.6倍 */
-}
 
 @font-face {
   font-family: 'Lato';
@@ -97,7 +82,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 strong {
