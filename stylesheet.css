@@ -1,4 +1,20 @@
 /* latin-ext */
+html {
+    font-size: 16px; /* 设置根字体大小 */
+}
+
+body {
+    font-size: 1rem; /* 使用rem单位，相对于根字体大小 */
+}
+
+p {
+    font-size: 1.125rem; /* 1.125 * 16px = 18px */
+}
+
+body {
+    line-height: 1.6; /* 行高是字体大小的1.6倍 */
+}
+
 @font-face {
   font-family: 'Lato';
   font-style: italic;
