@@ -1,4 +1,7 @@
 /* latin-ext */
+body {
+    line-height: 1.6; /* 行高是字体大小的1.6倍 */
+}
 
 @font-face {
   font-family: 'Lato';
